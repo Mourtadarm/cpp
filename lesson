@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    // Declare A Variable
+    float number, root;
+    cout<< "Enter number whose root is to be found: ";
+    // For input number
+    cin>>number;
+    root=sqrt(number);
+    cout<<"sqrt root of "<<number <<" is "<<root;
+
+    return 0;
+
+    
+}
